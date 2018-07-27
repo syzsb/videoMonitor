@@ -290,13 +290,13 @@ var videoMonitor = new VideoMonitor({
 bootstrap。
 
 
-#### html
+## html
 ```
 <div class="head-type" id="headType">
 </div>
 ```
 
-#### script
+## script
 ```
 var array = [[16,9],[4,3],[3,2],[16,9],[4,3],[3,2],[16,9],[4,3],[3,2],[16,9],[4,3],[3,2],[16,9],[4,3],[3,2],[16,9]];
 $("#headType").videoMonitor({

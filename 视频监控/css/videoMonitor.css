@@ -1,0 +1,117 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    padding: 60px 0 0;
+    box-sizing: border-box ; 
+}
+
+.head-nav{
+    height: 60px; 
+    margin: -60px 0 0;
+    background: #3C4146;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #333333;
+}
+
+.sub-main{
+    width: 33%;
+    height: 33%;
+    margin: 0.05% 0.15%;
+    background: #000000;
+    /* border: 7px solid slategray; */
+    flex: none;
+    position: relative;
+}
+.sub-main12{
+    width: 24.5%;
+    height: 33%;
+    margin: 0.05% 0.15%;
+    background: #000000;
+    /* border: 7px solid slategray; */
+    flex: none;
+    position: relative;
+}
+.sub-main16{
+    width: 24.5%;
+    height: 24.5%;
+    margin: 0.05% 0.15%;
+    background: #000000;
+    /* border: 7px solid slategray; */
+    flex: none;
+    position: relative;
+}
+video{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    object-position:center;
+}
+.head-title{
+    color: #fff;
+    width: 110px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+}
+.head-type{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+.head-type img{
+    display: block;
+    margin-left: 12px;
+}
+.head-sub-type{
+    width: 51px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.head-setUp{
+    width: 110px;
+}
+.head-setUp img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.active{
+    border-bottom: 3px solid #50C7A7;
+}
+.video-camera{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.microphone{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    cursor: pointer;
+}

@@ -289,7 +289,7 @@ var videoMonitor = new VideoMonitor({
 无非在new一个。华为他们的项目有自己的tiny.ui构建自己的风格，我也希望有一天我们壮大到有自己的yizhen.ui。构建自己风格，即不零散也不依赖
 bootstrap。
 
-
+## 使用方法
 ## html
 ```
 <div class="head-type" id="headType">
@@ -308,6 +308,7 @@ $("#headType").videoMonitor({
 
 ### Options
 arr:16个格子中你需要的比例的video三种(16/9,4/3,3/2)最多16个
+
 id:'headType'一个简单切换tab，demo不准确使用id只是一个demo
 
 ## 写在最后
